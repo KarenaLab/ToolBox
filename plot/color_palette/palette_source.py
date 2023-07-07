@@ -1,5 +1,12 @@
+# Color palette (P070) -------------------------------------------------
+# Functions that returns a color palette for matplotlib graphs.
 
-# Color Dictionary -----------------------------------------------------------
+
+# Insights, improvements and bugfix
+#
+
+
+# ----------------------------------------------------------------------
 
 def black_scale():
     """
