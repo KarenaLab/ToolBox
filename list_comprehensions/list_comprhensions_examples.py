@@ -20,6 +20,9 @@ square = [(i ** 2) for i in range(0, 10)]
 # Filter
 index = [i for (_, _, i) in position]
 
+girls_name = ["Mary", "Katrin", "Lillie", "Sakura", "Arielle"]
+tag_max = max([len(name) for name in girls_name])
+
 
 # Function
 def square_root(x):
@@ -29,4 +32,7 @@ def square_root(x):
 
 
 sqt_list = [square_root(i) for i in range(1, 6)]
+
+
+
 
