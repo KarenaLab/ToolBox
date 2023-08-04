@@ -98,7 +98,7 @@ def bic4_scale():
     
     """
     colors = {"blue": "navy",
-              "red":"darkred",
+              "red": "darkred",
               "yellow": "orange",
               "green": "darkgreen",
               "black": "black"}
@@ -198,9 +198,9 @@ def blue2red_palette():
     """   
     colors = {"blue_1": "#1984c5",
               "blue_2": "#22a7f0",
-              "blue_3":"#63bff0",
+              "blue_3": "#63bff0",
               "blue_4": "#a7d5ed",
-              "grey":"#e2e2e2",
+              "grey": "#e2e2e2",
               "red_4": "#e1a692",
               "red_3": "#de6e56",
               "red_2": "#e14b31",
