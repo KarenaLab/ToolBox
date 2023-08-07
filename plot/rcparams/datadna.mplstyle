@@ -1,0 +1,31 @@
+#Author: EKChikui, DataDNA
+
+figure.figsize: 8.0, 4.5
+font.size: 9.0
+figure.autolayout: True
+ps.papersize: A4
+
+axes.spines.right: False
+axes.spines.top: False
+
+xaxis.labellocation: right
+yaxis.labellocation: top
+
+axes.grid: True
+axes.axisbelow: True
+xtick.direction: in
+ytick.direction: in
+
+grid.color: "lightgrey"
+grid.linestyle: --
+grid.linewidth: 0.5
+grid.alpha: 1.0
+
+legend.framealpha: 1.0
+
+date.autoformatter.month: %m-%Y
+date.autoformatter.day: %d/%m/%Y
+
+savefig.dpi: 240
+savefig.format: png
+
