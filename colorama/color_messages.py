@@ -18,7 +18,7 @@ print("This is a simple plot")
 print(Fore.WHITE + "Testing WHITE color and comparing with Normal print")
 print(Fore.BLUE + Style.DIM +Back.WHITE + "Testing Blue with dimmer version and WHITE background")
 
-print(Fore.YELLOW + Style.DIM +"Testing Yellow sun NORMAL")
+print(Fore.YELLOW + Style.DIM +"Testing Yellow sun DIM")
 print(Fore.YELLOW + "Testing Yellow sun NORMAL")
 print(Fore.YELLOW + Style.BRIGHT + "Testing Yellow sun BRIGHT")
 
