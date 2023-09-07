@@ -1,0 +1,19 @@
+Most important libraries to install:
+* numpy
+* pandas
+* TensorFlow (also install Keras)
+* matplotlib
+* seaborn
+* pyspark
+* scikit-learn (also install scipy)
+* scipy 
+* stasmodels
+* pysqlite (needs Visual C++ build tools)
+* jupyterlab
+* feature-engine
+* xgboost
+* lightgbm
+
+* oauthlib
+* keras
+
