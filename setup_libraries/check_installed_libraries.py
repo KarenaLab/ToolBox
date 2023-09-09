@@ -15,9 +15,12 @@ import subprocess
 
 # Program --------------------------------------------------------------
 reqs = subprocess.check_output([sys.executable, '-m', 'pip', 'freeze'])
+
+# Process data
 installed_packages = [r.decode().split("==")[0] for r in reqs.split()]
 
 
+# Print it
 for i in installed_packages:
     print(i)
 
