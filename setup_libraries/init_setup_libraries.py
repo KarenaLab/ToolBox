@@ -16,11 +16,12 @@ import subprocess
 
 
 # Program --------------------------------------------------------------
-libraries_list = ["numpy", "pandas", "TensorFlow", "matplotlib",
-                  "seaborn", "pyspark", "scikit-learn", "scipy",
-                  "statsmodels", "jupyterlab", "feature-engine",
-                  "xgboost", "lightgbm", "keras", "oauthlib",
-                  "openpyxl"]
+libraries_list = ["numpy", "pandas",
+                  "scikit-learn", "scipy", "statsmodels", "feature-engine",
+                  "xgboost", "lightgbm",
+                  "TensorFlow", "keras",
+                  "matplotlib", "seaborn", "plotly",
+                  "pyspark", "jupyterlab", "oauthlib", "openpyxl"]
 
 
 # Implement **pip** as a subprocess:
