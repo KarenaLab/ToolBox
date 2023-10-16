@@ -27,7 +27,7 @@ libraries_list = ["numpy", "pandas",
 # Implement **pip** as a subprocess:
 for lib in libraries_list:
     subprocess.check_call([sys.executable, '-m', 'pip', 'install', lib])
-    print(f' > Library installed "{lib}" sucessfull.')
+    print(f' > Library "{lib}" installed sucessfully.')
 
 
 # end
