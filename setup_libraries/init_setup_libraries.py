@@ -21,7 +21,8 @@ libraries_list = ["numpy", "pandas",
                   "xgboost", "lightgbm",
                   "TensorFlow", "keras",
                   "matplotlib", "seaborn", "plotly",
-                  "pyspark", "jupyterlab", "oauthlib", "openpyxl"]
+                  "pyspark", "jupyterlab", "oauthlib", "openpyxl",
+                  "PyGithub"]
 
 
 # Implement **pip** as a subprocess:
