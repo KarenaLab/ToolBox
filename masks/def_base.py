@@ -1,4 +1,5 @@
 # Name [Pxxx]
+# (optional) Short description
 
 # Versions
 # 01 - Date - Starter
@@ -12,6 +13,11 @@
 # Libraries
 import numpy as np
 import pandas as pd
+
+import scipy.stats as st
+
+import matplotlib.pyplot as plt
+
 
 
 # ----------------------------------------------------------------------
