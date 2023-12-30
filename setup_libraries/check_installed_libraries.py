@@ -21,6 +21,17 @@ installed_packages = [r.decode().split("==")[0] for r in reqs.split()]
 
 
 # Print it
+count = 0
 for i in installed_packages:
     print(i)
+    count = count + 1
 
+    if(count == 35):
+        print("")
+        _ = input("> press any key to continue...")
+        print("")
+        
+        count = 0
+    
+
+# end
