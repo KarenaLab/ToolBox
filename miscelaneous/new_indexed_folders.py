@@ -57,7 +57,7 @@ def new_folders(start_index, n=10, verbose=True):
     """
     end_index = start_index + n
 
-    for index in range(start_index, end_index+1):
+    for index in range(start_index, end_index):
         folder_name = f"{index} - "
         os.mkdir(folder_name)
 
