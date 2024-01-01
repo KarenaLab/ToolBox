@@ -39,17 +39,26 @@ def unzip_files(path=None, delete_zip=False):
 
         if(folder_content.count(name) == 0):
             ZipFile(i).extractall(name)
-            print(f" > .zip file extracted: {i}")
+            print(f" >>> .zip file extracted: {i}")
 
-        if(delete_zip == True):
-            os.remove(i)
+            if(delete_zip == True):
+                os.remove(i)
+                print(f" >>> {i} file deleted")
+
+
+    if(path != None):
+        os.chdir(path_comeback)
 
 
     return None
 
 
 # Program --------------------------------------------------------------
-unzip_files()
+path_list = ["D:\99 - INBOX"]
+
+for p in path_list:
+    print(f" > Verifying: '{p}'")
+    unzip_files(path=p, delete_zip=True)
 
 
 # end
