@@ -18,6 +18,7 @@ import subprocess
 # Program --------------------------------------------------------------
 libraries_list = ["numpy", "pandas",
                   "scikit-learn", "scipy", "statsmodels", "feature-engine",
+                  "scikit-posthocs",
                   "xgboost", "lightgbm",
                   "TensorFlow", "keras",
                   "matplotlib", "seaborn", "plotly",
