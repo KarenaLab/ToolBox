@@ -5,6 +5,7 @@
 # Libraries
 import os
 import sys
+from collections import namedtuple
 
 import numpy as np
 import pandas as pd
