@@ -18,3 +18,6 @@
 * Version:
 * Estimated time to perform:
 * (and so on)...
+
+
+Delete it: You should rename it for `.md` to be shown at main page of GitHub.
