@@ -11,10 +11,12 @@ I will try to join rules by groups to make easier connection and to find guidanc
 1. Follow [PEP-008](https://peps.python.org/pep-0008/) and [Numpy Docstrings](https://numpydoc.readthedocs.io/en/latest/format.html) as much you could and when there is not a explicit rule for the topic,
 2. Import conventions:
 Adopt some import conventions to avoid conflict between scripts that could be running simultaneously.
-`import numpy as np
+```
+import numpy as np
 import pandas as pd
 import scipy as st
-import matplotlib.pyplot as plt`
+import matplotlib.pyplot as plt
+```
 
 #### Rules - Matplotlib
 
