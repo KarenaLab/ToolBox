@@ -9,14 +9,16 @@ I will try to join rules by groups to make easier connection and to find guidanc
 
 #### Rules - Generic
 1. Follow [PEP-008](https://peps.python.org/pep-0008/) and [Numpy Docstrings](https://numpydoc.readthedocs.io/en/latest/format.html) as much you could and when there is not a explicit rule for the topic,
-2. Import conventions:
-Adopt some import conventions to avoid conflict between scripts that could be running simultaneously.
+2. Import conventions
+	1. Import all libraries and needs in the beginning of the script
+	2. Adopt some import conventions to avoid conflict between scripts that could be running simultaneously.
 ```
 import numpy as np
 import pandas as pd
 import scipy as st
 import matplotlib.pyplot as plt
 ```
+	2. 
 
 #### Rules - Matplotlib
 
