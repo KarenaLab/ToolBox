@@ -12,17 +12,27 @@ I will try to join rules by groups to make easier connection and to find guidanc
 2. Import conventions
 	1. Import all libraries and needs in the beginning of the script,
 	2. Adopt some import conventions to avoid conflict between scripts that could be running simultaneously,
-	3. Avoid wild cards import,
+	3. Avoid wild cards import.
 ```
 import numpy as np
 import pandas as pd
-import scipy as st
+import scipy.stats as st
 import matplotlib.pyplot as plt
 
-from personal_tools import * 	# Avoid wild cards import.
+from personal_tools import * 			# Avoid wild cards import.
 
 ```
-	 
+
+#### Rules - Data Science
+1. All information traffic and store by numpy,
+2. Results and metrics as namedtuple or dictionary,
+3. 
+
+#### Rules - Numpy
+
+
+#### Rules - Pandas
+
 
 #### Rules - Matplotlib
 
