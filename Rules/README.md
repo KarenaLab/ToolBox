@@ -20,11 +20,10 @@ import scipy.stats as st
 import matplotlib.pyplot as plt
 
 from personal_tools import * 			# Avoid wild cards import.
-
 ```
 
 #### Rules - Data Science
-1. All information traffic and store by numpy,
+1. All information traffic and storage by numpy,
 2. Results and metrics as namedtuple or dictionary,
 3. 
 
