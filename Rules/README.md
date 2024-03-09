@@ -12,7 +12,14 @@ I will try to join rules by groups to make easier connection and to find guidanc
 2. Import conventions
 	1. Import all libraries and needs in the beginning of the script,
 	2. Adopt some import conventions to avoid conflict between scripts that could be running simultaneously,
-	3. Avoid wild cards import.
+	3. Avoid wild cards import,
+	4. Sequence to import:
+		1. python libraries
+		2. Full imports: numpy, pandas, scipy.stats and matplotlib.pyplot
+		3. Pieces imports imported by sequence of use
+		4. Personal tools and,
+		5. Local, or common, tools from the `python_modules`.
+	5. 
 ```
 import numpy as np
 import pandas as pd
