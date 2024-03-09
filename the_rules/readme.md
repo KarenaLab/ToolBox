@@ -9,18 +9,22 @@ I will try to join rules by groups to make easier connection and to find guidanc
 
 #### Rules - Generic
 1. Follow [PEP-008](https://peps.python.org/pep-0008/) and [Numpy Docstrings](https://numpydoc.readthedocs.io/en/latest/format.html) as much you could and when there is not a explicit rule for the topic,
+
 2. Import conventions
 	1. Import all libraries and needs in the beginning of the script,
 	2. Adopt some import conventions to avoid conflict between scripts that could be running simultaneously,
 	3. Avoid wild cards import,
 	4. Sequence to import:
-		1. python libraries
-		2. Full imports: numpy, pandas, scipy.stats and matplotlib.pyplot
-		3. Pieces imports imported by sequence of use
-		4. Personal tools and,
-		5. Local, or common, tools from the `python_modules`.
-	5. 
+		* python libraries
+		* Full library: numpy, pandas, scipy.stats and matplotlib.pyplot
+		* Single function: When import a single function, importe by sequence of use
+		* Tools: Personal tools made exclusive for the application/experiment and local (or common) tools from the `python_modules`.
+
+3. ononon
+
+Example of import
 ```
+# Libraries
 import numpy as np
 import pandas as pd
 import scipy.stats as st
