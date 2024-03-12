@@ -47,7 +47,7 @@ from personal_tools import * 			# Avoid wild cards import.
 #### Rules - Matplotlib
 
 
-
+-----
 #### Statistics
 * Date: Mar 06th, 2024
 * Version: 01
