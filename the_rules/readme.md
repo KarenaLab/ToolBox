@@ -25,6 +25,10 @@ I will try to join rules by groups to make easier connection and to find guidanc
 Example of import
 ```
 # Libraries
+import os
+import sys
+sys.path.append(r"c:\python_modules")
+
 import numpy as np
 import pandas as pd
 import scipy.stats as st
@@ -34,7 +38,7 @@ from personal_tools import * 			# Avoid wild cards import.
 ```
 
 #### Rules - Data Science
-1. All information traffic and storage by numpy,
+1. Try to use all information traffic and storage by numpy,
 2. Results and metrics as namedtuple or dictionary,
 3. 
 
@@ -51,8 +55,3 @@ from personal_tools import * 			# Avoid wild cards import.
 #### Statistics
 * Date: Mar 06th, 2024
 * Version: 01
-
-
-
-
-
