@@ -20,8 +20,6 @@ I will try to join rules by groups to make easier connection and to find guidanc
 		* Single function: When import a single function, importe by sequence of use
 		* Tools: Personal tools made exclusive for the application/experiment and local (or common) tools from the `python_modules`.
 
-3. ononon
-
 Example of import
 ```
 # Libraries
@@ -36,6 +34,18 @@ import matplotlib.pyplot as plt
 
 from personal_tools import * 			# Avoid wild cards import.
 ```
+
+3. Setup/Config
+	1. Set your environment variables or configuration variables here, it is expected that it does not change frequently.
+
+4. Functions
+	1. Write your functions, sequence is not a must, but matters,
+	2. Remember about internal functions (and variables) starting with an underline,
+
+5. Program (or your main function)
+	1. Where the magic happens :)
+	2. Do not be lazy, do your code step by step will help you to remember six months later,
+
 
 #### Rules - Data Science
 1. Try to use all information traffic and storage by numpy,
