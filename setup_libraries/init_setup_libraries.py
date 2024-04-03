@@ -31,5 +31,7 @@ for lib in libraries_list:
     subprocess.check_call([sys.executable, '-m', 'pip', 'install', lib])
     print(f' > Library "{lib}" installed sucessfully.')
 
+    #pip --trusted-host pypi.org --trusted-host files.pythonhosted.org install [library_name]
+
 
 # end
