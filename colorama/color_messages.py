@@ -1,4 +1,4 @@
-
+import time
 import colorama
 from colorama import Fore, Back, Style
 
@@ -21,4 +21,7 @@ print(Fore.BLUE + Style.DIM +Back.WHITE + "Testing Blue with dimmer version and 
 print(Fore.YELLOW + Style.DIM +"Testing Yellow sun DIM")
 print(Fore.YELLOW + "Testing Yellow sun NORMAL")
 print(Fore.YELLOW + Style.BRIGHT + "Testing Yellow sun BRIGHT")
+
+time.sleep(60)
+
 
