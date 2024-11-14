@@ -19,7 +19,6 @@ def black_scale():
               "black_4": "dimgrey",
               "black_5": "black"}
 
-
     return colors
 
 
@@ -33,7 +32,6 @@ def grey_scale():
               "grey_3": "darkgrey",
               "grey_4": "grey",
               "grey_5": "dimgrey"}
-
 
     return colors
 
@@ -49,7 +47,6 @@ def blue_scale():
               "blue_4": "royalblue",
               "blue_5": "navy"}
 
-
     return colors
 
 
@@ -63,7 +60,6 @@ def green_scale():
               "green_3": "yellowgreen",
               "green_4": "olivedrab",
               "green_5": "darkgreen"}
-
 
     return colors
 
@@ -79,7 +75,6 @@ def red_scale():
               "red_4": "firebrick",
               "red_5": "darkred"}
 
-
     return colors
 
 
@@ -94,7 +89,6 @@ def yellow_scale():
               "yellow_4": "wheat",
               "yellow_5": "orange"}
 
-
     return colors       
 
 
@@ -108,7 +102,6 @@ def bic4_scale():
               "yellow": "orange",
               "green": "darkgreen",
               "black": "black"}
-
 
     return colors
 
@@ -126,9 +119,40 @@ def samsung_palette():
               "orange": "#FFB546",         # r=255, g=181, b=070
               "red": "#FF4337"}            # r=255, g=067, b=055
 
+    return colors
+
+
+def saintgobain_palette():
+    """
+    Returns 06 (six) colors of Saint Gobain logo.
+    Source: https://coloropedia.com/saint-gobain-colors-logo-codes/
+
+    """
+    colors = {"green": "#4DB1B3",       # Verdigris
+              "light_blue": "#0195D6",  # Rich electric blue
+              "blue": "#0F5299",        # Yale blue
+              "raspberry": "#C5284C",   # French raspberry
+              "red": "#E83430",         # CG red
+              "orange": "#E66407"}      # Spanish orange
 
     return colors
 
+
+def economist_palette():
+    """
+    Returns 08 (eight) colors for plots with The Economist style.
+
+    """
+    colors = {"red": "#DB444B",
+              "blue": "#006BA2",
+              "cyan": "#3EBCD2",
+              "green": "#379A8B",
+              "yellow": "#EBB434",
+              "olive": "#B4BA39",
+              "purple": "#9A607F",
+              "gold": "#D1B07C"}
+
+    return colors
 
 def romania_palette():
     """
@@ -143,7 +167,6 @@ def romania_palette():
               "orange": "#F77F00",
               "yellow": "#FCBF49",
               "sand": "#EAE2B7"}
-
 
     return colors
 
@@ -161,7 +184,6 @@ def france_palette():
               "blue_middle": "#457B9D",
               "blue_dark": "#1D3557"}
 
-
     return colors
 
 
@@ -177,7 +199,6 @@ def nbc_palette():
               "yellow": "#FCB711",
               "purple": "#6460AA",
               "orange": "#F37021"}
-
 
     return colors
 
@@ -198,7 +219,6 @@ def spring_pastels():
              "pink": "#fdcce5",
              "aqua": "#8bd3c7"}
 
-
     return colors
 
 
@@ -218,7 +238,6 @@ def blue2red_palette():
               "red_2": "#e14b31",
               "red_1": "#c23728"}
 
-
     return colors
 
 
@@ -232,7 +251,6 @@ def blue_gradient():
 	      "blue_03": "#005b96",	# (0,91,150)
  	      "blue_04": "#6497b1",     # (100,151,177)
               "blue_05": "#b3cde0"}	# (179,205,224)
-
 
     return colors
 
@@ -250,7 +268,6 @@ def fitzpatrick_gradient():
               "fs5": "#96734E",     # r=150, g=115, b=078
               "fs6": "#6E3B07"}     # r=110, g=059, b=007
 
-
     return colors
 
 
@@ -264,24 +281,6 @@ def microsoft_palette():
               "blue": "#00A4EF",
               "yellow": "#FFB900",
               "grey": "#737373"}
-
-
-    return colors
-
-
-def economist_palette():
-    """
-    Returns 08 (eight) colors for plots with The Economist style.
-
-    """
-    colors = {"red": "#DB444B",
-              "blue": "#006BA2",
-              "cyan": "#3EBCD2",
-              "green": "#379A8B",
-              "yellow": "#EBB434",
-              "olive": "#B4BA39",
-              "purple": "#9A607F",
-              "gold": "#D1B07C"}
 
 
     return colors
