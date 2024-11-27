@@ -6,6 +6,7 @@ from colorama import Fore, Back, Style
 # https://pypi.org/project/colorama/
 
 
+# Program --------------------------------------------------------------
 colorama.init(autoreset=True)
 
 print(Fore.BLUE + "Testing Blue")
