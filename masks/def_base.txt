@@ -1,4 +1,4 @@
-# Name [Pxxx]
+# [Pxxx] Project name
 # (optional) Short description
 
 # Versions
@@ -11,8 +11,6 @@
 
 
 # Libraries
-from collections import namedtuple
-
 import numpy as np
 import pandas as pd
 import scipy.stats as st
@@ -29,7 +27,8 @@ def name():
 
     """
 
-    return None    
+    return None
+
 
 
 
