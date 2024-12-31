@@ -1,11 +1,10 @@
-# Name [Pxxx]
+# [Pxxx] Project name
 # (optional) Short description of the program/module.
 
 
 # Libraries
 import os
 import sys
-from collections import namedtuple
 
 import numpy as np
 import pandas as pd
@@ -32,4 +31,3 @@ sys.path.append(r"c:\python_modules")
 
 
 # end
-
