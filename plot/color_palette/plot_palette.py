@@ -48,7 +48,7 @@ def plot_palette(palette, title=None, savefig=False, verbose=True):
 
     # Figure
     fig = plt.figure(figsize=[8, 4.5])  # Widescreen [16:9]
-    fig.suptitle(title, fontsize=10, fontweight="bold", ha="center")
+    fig.suptitle(title, fontsize=10, fontweight="bold", x=0.98, ha="right")
     ax = plt.axes()
     
     plt.bar(labels, height=values, bottom=0, color=colors)
