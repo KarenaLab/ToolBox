@@ -24,17 +24,15 @@ def plot_palette(palette, title=None, savefig=False, verbose=True):
     if(isinstance(palette, dict) == True):
        colors = list(palette.values())
        labels = list(palette.keys())
-       labels = zip_name(labels, colors)
-       values = [1 for x in colors]
 
     elif(isinstance(palette, list) == True):
         colors = palette[:]
         labels = ["" for x in colors]
-        labels = zip_name(labels, colors)
-        values = [1 for x in colors]
 
-    else:
-        return None
+    # Labels with color name AND color specifications
+    labels = zip_name(labels, colors)
+    values = [1 for x in colors]
+
 
     # Title
     if(title == None):
@@ -50,7 +48,7 @@ def plot_palette(palette, title=None, savefig=False, verbose=True):
 
     # Figure
     fig = plt.figure(figsize=[8, 4.5])  # Widescreen [16:9]
-    fig.suptitle(title, fontsize=10, fontweight="bold", x=0.98, ha="right")
+    fig.suptitle(title, fontsize=10, fontweight="bold", ha="center")
     ax = plt.axes()
     
     plt.bar(labels, height=values, bottom=0, color=colors)
