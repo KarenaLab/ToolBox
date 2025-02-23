@@ -15,7 +15,7 @@ from palette_source import *
 
 
 # Functions
-def plot_colors_palette(palette, title=None, savefig=False, verbose=True):
+def plot_palette(palette, title=None, savefig=False, verbose=True):
     """
     Function to show the colors from a given **palette**.
     
@@ -94,5 +94,5 @@ def zip_name(labels, colors):
 # Program
 if(__name__ == "__main__"):
     savefig = True
-    plot_colors_palette(samsung_palette(), title="Samsung palette", savefig=savefig)
-    plot_colors_palette(saintgobain_palette(), title="Saint Gobain palette", savefig=savefig)
+    plot_palette(samsung_palette(), title="Samsung palette", savefig=savefig)
+    plot_palette(saintgobain_palette(), title="Saint Gobain palette", savefig=savefig)
