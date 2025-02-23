@@ -1,12 +1,8 @@
-# Color palette (P070) -------------------------------------------------
-# Functions that returns a color palette for matplotlib graphs.
+# [P070] Colors palette -------------------------------------------------
 
+# Source of color palettes to be used with Matplolib and other data
+# visualization libraries baes on,
 
-# Insights, improvements and bugfix
-#
-
-
-# ----------------------------------------------------------------------
 
 def black_scale():
     """
@@ -154,6 +150,7 @@ def economist_palette():
 
     return colors
 
+
 def romania_palette():
     """
     Returns a dict with 5 colors with main colors= Blue, Red and Yellow.
@@ -282,7 +279,7 @@ def microsoft_palette():
               "yellow": "#FFB900",
               "grey": "#737373"}
 
-
     return colors
+
 
 # end
