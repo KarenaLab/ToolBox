@@ -1,4 +1,4 @@
-# Setup - Libraries [P010] ---------------------------------------------
+# [P010] Setup - Libraries ---------------------------------------------
 # Check installed libraries
 
 # Versions
@@ -33,5 +33,4 @@ for i in installed_packages:
         
         count = 0
     
-
 # end
