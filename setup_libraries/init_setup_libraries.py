@@ -1,4 +1,4 @@
-# Setup - Libraries [P010] ---------------------------------------------
+# [P010] Setup - Libraries ---------------------------------------------
 # Install by script the basic libraries for a Data Scientist
 
 # Versions
