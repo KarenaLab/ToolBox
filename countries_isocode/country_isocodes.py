@@ -1,13 +1,7 @@
 # Countries ISO Code [P415]
 
-
 # Versions
 # 01 - May 07th, 2024 - Starter
-# 02 -
-
-
-# Insights, improvements and bugfix
-#
 
 
 # Libraries
@@ -16,12 +10,13 @@ import numpy as np
 import pandas as pd
 
 
-
-
 # ----------------------------------------------------------------------
 def country_isocodes():
     """
-
+    Returns a DataFrame with Countries ISO Codes
+    DataFrame has 04 (four) columns: Country name, ISO Code 2,
+    ISO Code 3 and numerical code.
+    
     """
     filename = "iso_codes.csv"
     data = pd.read_csv(filename, sep=",", encoding="utf-8")
