@@ -3,7 +3,21 @@
 # Source of color palettes to be used with Matplolib and other data
 # visualization libraries baes on,
 
+def hex_to_rgb(hex_code):
+    """
+    Convert an hexadecimal code into RGB components.
 
+    """
+    # Data preparation
+    hex_code = hex_code.replace("#", "")
+
+    # Split hex color into Red, Green and Blue (RGB) components
+    rgb = tuple(int(hex_code[i: i+2], 16) for i in (0, 2, 4))
+
+
+    return rgb
+
+    
 def black_scale():
     """
     Returns a dict with 5 colors with black gradient.
@@ -120,16 +134,15 @@ def samsung_palette():
 
 def saintgobain_palette():
     """
-    Returns 06 (six) colors of Saint Gobain logo.
-    Source: https://coloropedia.com/saint-gobain-colors-logo-codes/
+    Returns 05 (five) colors of Saint Gobain logo.
+    Source: Saint Gobain Brand Book 2024, page 20.
 
     """
-    colors = {"green": "#4DB1B3",       # Verdigris
-              "light_blue": "#0195D6",  # Rich electric blue
-              "blue": "#0F5299",        # Yale blue
-              "raspberry": "#C5284C",   # French raspberry
-              "red": "#E83430",         # CG red
-              "orange": "#E66407"}      # Spanish orange
+    colors = {"green": "#00B9AA",       # RGB = 0, 185, 170
+              "lightblue": "#00ADE1",   # RGB = 0, 173, 225
+              "blue": "#17428C",        # RGB = 23, 66, 140
+              "red": "#ED0530",         # RGB = 237, 5, 48
+              "orange": "#FF7800"}      # RGB = 255, 120, 0
 
     return colors
 
