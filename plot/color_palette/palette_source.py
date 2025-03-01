@@ -5,7 +5,8 @@
 
 def hex_to_rgb(hex_code):
     """
-    Convert an hexadecimal code into RGB components.
+    Convert a hexadecimal code into RGB components.
+    `hex_code` should be informed as string.
 
     """
     # Data preparation
@@ -17,6 +18,26 @@ def hex_to_rgb(hex_code):
 
     return rgb
 
+
+def rgb_to_hex(rgb):
+    """
+    Convert a RGB code into Hex color code.
+    `rgb`should be informed as tuple (or list)
+
+    """
+    # Data preparation
+    rgb = list(rgb)
+
+    # Data validation
+    for x in rgb:
+        if(x < 0 or x > 255):
+            raise ValueError("RGB component is out of range[0-255]")
+
+    # Format Hexadecimal string
+    hex_color = '#{:02x}{:02x}{:02x}'.format(rgb[0], rgb[1], rgb[2])
+    
+    return hex_color
+    
     
 def black_scale():
     """
