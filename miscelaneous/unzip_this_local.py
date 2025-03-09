@@ -35,7 +35,7 @@ def unzip_files(path=None, delete_zip=False):
 
     # Unzip routine
     for i in zip_content:      
-        name, extension = i.split(".")
+        name, extension = os.path.splitext(i)
 
         if(folder_content.count(name) == 0):
             ZipFile(i).extractall(name)
