@@ -13,7 +13,7 @@
 # Libraries
 import numpy as np
 import pandas as pd
-import scipy.stats as st
+import scipy.stats as stats
 
 import matplotlib.pyplot as plt
 
