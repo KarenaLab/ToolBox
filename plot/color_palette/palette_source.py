@@ -35,9 +35,25 @@ def rgb_to_hex(rgb):
 
     # Format Hexadecimal string
     hex_color = '#{:02x}{:02x}{:02x}'.format(rgb[0], rgb[1], rgb[2])
+
     
     return hex_color
+
+
+def luminance(rgb):
+    # Data preparation
+    r = rgb[0]
+    g = rgb[1]
+    b = rgb[2]
+
+    # Luminance formula
+    # Y = 0.299 * R  +  0.587 * G  +  0.114 * B
+
+    y = (0.299 * r) + (0.587 * g) + (0.114 * b)
     
+
+    return y
+
     
 def black_scale():
     """
