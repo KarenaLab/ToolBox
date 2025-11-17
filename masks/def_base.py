@@ -1,11 +1,6 @@
 # [Pxxx] Project name
 # (optional) Short description
 
-# Versions
-# 01 - Date - Starter
-# 02 -
-
-
 # Insights, improvements and bugfix
 #
 
@@ -16,7 +11,6 @@ import pandas as pd
 import scipy.stats as stats
 
 import matplotlib.pyplot as plt
-
 
 
 # ----------------------------------------------------------------------
