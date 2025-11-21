@@ -1,7 +1,6 @@
 # [Pxxx] Project name
 # (optional) Short description of the program/module.
 
-
 # Libraries
 import os
 
