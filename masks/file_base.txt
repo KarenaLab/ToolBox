@@ -11,7 +11,7 @@ import scipy.stats as stats
 import matplotlib.pyplot as plt
 
 
-# Personal modules
+# Project libraries
 
 
 
